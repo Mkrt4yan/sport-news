@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports News Hub</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background: #1a3e72;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            background: #f4f4f4;
+            padding: 0.5rem;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 1rem;
+        }
+        nav a {
+            text-decoration: none;
+            color: #1a3e72;
+            font-weight: bold;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 2rem 0;
+        }
+        .news-item {
+            border-bottom: 1px solid #e4e4e4;
+            padding: 1rem 0;
+        }
+        .news-item h3 {
+            color: #1a3e72;
+        }
+        footer {
+            background: #1a3e72;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 1rem;
+        }
+        .btn {
+            display: inline-block;
+            background: #e8491d;
+            color: white;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sports News Hub</h1>
+        <p>Your one-stop destination for all sports updates</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Football</a></li>
+            <li><a href="#">Basketball</a></li>
+            <li><a href="#">Tennis</a></li>
+            <li><a href="#">More Sports</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <section>
+            <h2>Latest Sports News</h2>
+            
+            <div class="news-item">
+                <h3>Champions League Quarterfinal Results</h3>
+                <p>Breaking news from the latest Champions League matches with surprising upsets and expected victories from top teams.</p>
+                <a href="https://www.espn.com/soccer/" class="btn" target="_blank">Read Full Story on ESPN</a>
+            </div>
+            
+            <div class="news-item">
+                <h3>NBA Playoff Picture Coming Into Focus</h3>
+                <p>With just weeks remaining in the regular season, the playoff matchups are becoming clearer in both conferences.</p>
+                <a href="https://www.nba.com/news" class="btn" target="_blank">NBA Official News</a>
+            </div>
+            
+            <div class="news-item">
+                <h3>Grand Slam Tennis Tournament Preview</h3>
+                <p>Experts weigh in on the favorites and dark horses for the upcoming major tournament.</p>
+                <a href="https://www.atptour.com/" class="btn" target="_blank">ATP Tour News</a>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>Sports News Hub &copy; 2023 | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
